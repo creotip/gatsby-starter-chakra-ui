@@ -1,5 +1,5 @@
-import React from "react"
-import { Box, BoxProps } from "@chakra-ui/react"
+import React from 'react'
+import { Box, BoxProps } from '@chakra-ui/react'
 
 export const Container = (props) => (
   <Box
@@ -8,7 +8,7 @@ export const Container = (props) => (
     pt="3"
     mx="auto"
     maxW="75rem"
-    px={{ base: "2", md: "6" }}
+    px={{ base: '2', md: '6' }}
     {...props}
   />
 )

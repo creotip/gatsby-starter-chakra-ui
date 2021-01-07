@@ -1,7 +1,6 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
 import {
   chakra,
   Flex,
@@ -10,13 +9,10 @@ import {
   IconButton,
   useColorMode,
   useColorModeValue,
-} from "@chakra-ui/react"
-import { FaMoon, FaSun } from "react-icons/fa"
-import { useViewportScroll } from "framer-motion"
-import Logo from "./chakra-logo"
-
-
-
+} from '@chakra-ui/react'
+import { FaMoon, FaSun } from 'react-icons/fa'
+import { useViewportScroll } from 'framer-motion'
+import Logo from './chakra-logo'
 
 const GithubIcon = (props) => (
   <svg viewBox="0 0 20 20" {...props}>
@@ -29,17 +25,16 @@ const GithubIcon = (props) => (
 
 function HeaderContent() {
   const { toggleColorMode: toggleMode } = useColorMode()
-  const text = useColorModeValue("dark", "light")
+  const text = useColorModeValue('dark', 'light')
   const SwitchIcon = useColorModeValue(FaMoon, FaSun)
 
   return (
     <>
       <Flex w="100%" h="100%" px="6" align="center" justify="space-between">
         <Flex align="center">
-          <Link to={'/'} >
+          <Link to={'/'}>
             <Logo />
           </Link>
-
         </Flex>
 
         <Flex
@@ -49,9 +44,7 @@ function HeaderContent() {
           align="center"
           color="gray.400"
         >
-
-
-          <HStack spacing="5" display={{ base: "none", md: "flex" }}>
+          <HStack spacing="5" display={{ base: 'none', md: 'flex' }}>
             <Link
               isExternal
               aria-label="Go to Chakra UI GitHub page"
@@ -63,10 +56,9 @@ function HeaderContent() {
                 transition="color 0.2s"
                 w="5"
                 h="5"
-                _hover={{ color: "gray.600" }}
+                _hover={{ color: 'gray.600' }}
               />
             </Link>
-
           </HStack>
           <IconButton
             size="md"
@@ -74,21 +66,18 @@ function HeaderContent() {
             aria-label={`Switch to ${text} mode`}
             variant="ghost"
             color="current"
-            ml={{ base: "0", md: "3" }}
+            ml={{ base: '0', md: '3' }}
             onClick={toggleMode}
             icon={<SwitchIcon />}
           />
-
-
         </Flex>
       </Flex>
-
     </>
   )
 }
 
 function Header(props) {
-  const bg = useColorModeValue("white", "gray.800")
+  const bg = useColorModeValue('white', 'gray.800')
   const ref = React.useRef()
   const [y, setY] = React.useState(0)
   const { height = 0 } = ref.current?.getBoundingClientRect() ?? {}
@@ -101,7 +90,7 @@ function Header(props) {
   return (
     <chakra.header
       ref={ref}
-      shadow={y > height ? "sm" : undefined}
+      shadow={y > height ? 'sm' : undefined}
       transition="box-shadow 0.2s"
       pos="fixed"
       top="0"
