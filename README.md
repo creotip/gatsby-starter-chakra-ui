@@ -1,11 +1,9 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<div style="display: flex;justify-content: center;align-items: center;">
+<p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/master/logo/logo-colored%402x.png" width="300" />
   </a>
-</div>
-
-
+</p>
 <h1 align="center">
  Gatsby starter Chakra UI
 </h1>
@@ -28,7 +26,7 @@ https://gatsby-chakra-ui.netlify.app/
     Use the Gatsby CLI to create a new site, specifying the gatsby-starter-chakra-ui.
 
     ```shell
-    gatsby new my-gatsby-starter-chakra-ui https://github.com/creotip/gatsby-starter-chakra-ui
+    gatsby new my-default-starter https://github.com/creotip/gatsby-starter-chakra-ui
     ```
 
 1.  **Start developing.**
@@ -36,7 +34,7 @@ https://gatsby-chakra-ui.netlify.app/
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-starter-chakra-ui/
+    cd my-default-starter/
     gatsby develop
     ```
 
