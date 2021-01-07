@@ -23,10 +23,10 @@ https://gatsby-chakra-ui.netlify.app/
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use the Gatsby CLI to create a new site, specifying the gatsby-starter-chakra-ui.
 
     ```shell
-    gatsby new my-default-starter https://github.com/creotip/gatsby-starter-chakra-ui
+    gatsby new my-gatsby-starter-chakra-ui https://github.com/creotip/gatsby-starter-chakra-ui
     ```
 
 1.  **Start developing.**
@@ -34,7 +34,7 @@ https://gatsby-chakra-ui.netlify.app/
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd my-gatsby-starter-chakra-ui/
     gatsby develop
     ```
 
