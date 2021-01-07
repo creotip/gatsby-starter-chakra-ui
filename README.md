@@ -1,7 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <div style="display: flex;justify-content: center;align-items: center;">
-
-<div style="font-size: 54px; padding-left: 20px; padding-right: 20px; color: #374252;">Gatsby</div>
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/master/logo/logo-colored%402x.png" width="300" />
   </a>
