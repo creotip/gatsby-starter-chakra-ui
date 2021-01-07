@@ -30,9 +30,11 @@ const Layout = ({ children }) => {
       </Box>
       <Flex
         as={'footer'}
-        style={{
-          marginTop: `2rem`,
-        }}
+        maxW={'960px'}
+        p={'0 1.0875rem 1.45rem'}
+        mt={'2rem'}
+        mx={'auto'}
+        justifyContent={'center'}
       >
         © {new Date().getFullYear()}, Built with
         {` `}

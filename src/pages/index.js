@@ -22,14 +22,14 @@ import Container from '../components/container'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    {/*<h1>Hi people</h1>*/}
+    {/*<p>Welcome to your new Gatsby site.</p>*/}
+    {/*<p>Now go build something great.</p>*/}
+    {/*<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>*/}
+    {/*  <Image />*/}
+    {/*</div>*/}
+    {/*<Link to="/page-2/">Go to page 2</Link> <br />*/}
+    {/*<Link to="/using-typescript/">Go to "Using TypeScript"</Link>*/}
     <Box mb={20}>
       <Box
         as="section"
@@ -95,7 +95,7 @@ const IndexPage = () => (
                 h="4rem"
                 px="40px"
                 fontSize="1.2rem"
-                href="https://github.com/chakra-ui/chakra-ui/"
+                href="https://github.com/creotip/gatsby-starter-chakra-ui"
                 target="__blank"
                 leftIcon={<DiGithubBadge size="1.5em" />}
               >

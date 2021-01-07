@@ -48,7 +48,7 @@ function HeaderContent() {
             <Link
               isExternal
               aria-label="Go to Chakra UI GitHub page"
-              href="https://github.com/chakra-ui/chakra-ui"
+              href="https://github.com/creotip/gatsby-starter-chakra-ui"
             >
               <Icon
                 as={GithubIcon}
